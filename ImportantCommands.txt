@@ -1,0 +1,5 @@
+// Mod in 
+    go mod init <name_of_file>
+
+// Input 
+    
