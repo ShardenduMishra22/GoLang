@@ -14,9 +14,6 @@ func main() {
 	fruitList = append(fruitList, "Mango", "Banana")
 	fmt.Println(fruitList)
 
-	fruitList = append(fruitList[:3])
-	fmt.Println(fruitList)
-
 	highScores := make([]int, 4)
 
 	highScores[0] = 234
