@@ -1,5 +1,5 @@
 // Mod in 
     go mod init <name_of_file>
 
-// Input 
-    
+// Inject Gorilla/mux
+    go get -u github.com/gorilla/mux
