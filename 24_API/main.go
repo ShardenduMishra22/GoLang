@@ -55,7 +55,7 @@ func main() {
 	// Get Courses by ID
 	r.HandleFunc("/course/{id}", getOneCourse).Methods("GET")
 
-	// Create, Update, Delete Courses
+	// Create
 	r.HandleFunc("/course", createOneCourse).Methods("POST")
 
 	// update a course
@@ -69,6 +69,7 @@ func main() {
 
 	// Start the server on port 4000
 	log.Fatal(http.ListenAndServe(":4000", r))
+	fmt.Println("Server is running on port http://localhost:4000")
 }
 
 // Course struct
